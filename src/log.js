@@ -9,9 +9,9 @@ function Log ( opts ) {
     opts = opts || {}
     this._context = new LogContext()
     this.level( opts.level || process.env.LOGLEVEL ||
-        process.env.NODE_ENV === 'production' ? 'info' : 'debug' )
+        ( process.env.NODE_ENV === 'production' ? 'info' : 'debug' ) )
     this.format( opts.format || process.env.LOGFORMAT ||
-        process.env.NODE_ENV === 'production' ? 'json.plain' : 'text.pretty' )
+        ( process.env.NODE_ENV === 'production' ? 'json.plain' : 'text.pretty' ) )
     this.stream( opts.stream || process.stderr )
 
     if ( opts.context )
