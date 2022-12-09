@@ -1,5 +1,5 @@
 {
-  "name": "clog",
+  "name": "@maxvu/clog",
   "version": "0.0.1",
   "description": "Node.JS logging library",
   "main": "index.js",
