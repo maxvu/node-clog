@@ -1,0 +1,24 @@
+{
+  "name": "clog",
+  "version": "0.0.1",
+  "description": "Node.JS logging library",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maxvu/node-clog.git"
+  },
+  "keywords": [
+    "log",
+    "logging",
+    "observability"
+  ],
+  "author": "Max Vu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/maxvu/node-clog/issues"
+  },
+  "homepage": "https://github.com/maxvu/node-clog#readme"
+}
